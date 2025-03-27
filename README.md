@@ -1,7 +1,9 @@
-IITM Assignment API
+**IITM Assignment API**
+
 This API automatically answers questions from graded assignments for the IIT Madras Online Degree in Data Science.
 
-Setup
+**Setup**
+
 Clone this repository
 Create a virtual environment: python -m venv venv
 Activate the virtual environment:
@@ -13,7 +15,8 @@ Run the server: uvicorn app.main:app --reload
 Usage
 Send a POST request to the /api/ endpoint with:
 
-question: The assignment question
+**question: The assignment question**
+
 file (optional): Any file attachment needed to answer the question
 Example:
 
@@ -26,5 +29,7 @@ Response:
 {
   "answer": "1234567890"
 }
-License
+
+**License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
